@@ -1,0 +1,56 @@
+body{
+	background-color : #121212;
+	color : #fff;
+	font-family:Verdana,sans-serif;
+
+}
+.Nav{
+	width : 100%;
+	text-align : center;
+	font-size: 72px;
+	
+}
+.List_bottom{
+	color : white;
+	background-color:red;
+	text-align : center;
+	list-style: none;
+	line-height: 1.6;
+	margin-top:200px;
+	margin-left: 30%;
+	margin-right:30%;
+}
+.List_right{
+	float:right; 
+	width:45%;
+	color : white;
+	background-color:red;
+	text-align : center;
+	line-height: 1.6;
+	margin:10px;
+	
+}
+.List_left{
+	float:left;
+	width:45%;
+	color : white;
+	background-color:red;
+	text-align : center;
+	line-height: 1.6;
+	margin:10px;
+	
+}
+.Search{
+	text-align : center;
+	font-family: Verdana,sans-serif;
+	font-size: 20px;
+}
+.LisNoDot{
+	list-style-type: none;
+	background-color:#121212;
+	border-left:dashed 2px red;
+	border-right:dashed 2px red;
+	border-bottom:dashed 2px red;
+	padding:10px;
+	margin:2px;
+}

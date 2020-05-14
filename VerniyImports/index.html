@@ -3,25 +3,23 @@
 
 	<head>
 		<title>VerniyImportsHome</title>
+		<link rel="stylesheet" type = "text/css" href = "css/style.css">
 	</head>
 
 	<body>
-		<!--Header Tag-->
-		<div name ">
-			<h1>VerniyImports</h1>
+		<div id: "Home_MaiPan" class= "Nav">
+			<h1>Verniy Imports</h1>
 		</div>
 		<br>
 		
 		<!--General Search-->
-		<div name:"General Search">
+		<div id:"Home_GenSea" class="Search">
 			<form action="search.php" method="GET">
-			<h2>Enter a Character to start a search</h2>
-				<div>
-					<label>Keyword</label>
-					<input type = "text" name="SearchKeyWord">
+				<div name:"Home_GenSea_SeaBar">
+					<label>Enter a Keyword</label>
+					<input type = "text" name="SearchKeyWord" placeholder = "Enter a Character">
 				</div>
-			<br>
-				<div>
+				<divname:"Home_GenSea_Sub">
 					<input type = "submit" name = "search" value = "Search Now...">
 				</div>
 			</form>
@@ -29,21 +27,32 @@
 		<br>
 		<!-- Live Infos-->
 			<!--Current Imported Manufacturers-->
-		<div>
-			<div>
-				<b>Current Live Manufacturers</b>
+		<div id:"Home_LivApi">
+			<div id:"Home_LivApi_LivMan" class="List_left">
+				<h2 >Current Live Manufacturers</h2>
+				<ul class="LisNoDot">
+					<li>Sega</li>
+					<li>Kotobukiya</li>
+					<li>Banpresto</li>
+				</ul>
+			</div>
+			<!--Current Imported Sites-->
+			<div id:"Home_LivApi_LivSit" class="List_right">
+				<h2 >Current Live Sites</h2>
+				<ul class="LisNoDot">
+					<li>Amazon</li>
+					<li>Ebay</li>
+				</ul>
 			</div>
 			<br>
-			<!--Current Imported Sites-->
-			<div>
-				<b>Current Live Sites</b>
-			</div>
+			<br>
 			<br>
 		</div>
 		<!--Ranking List-->
 		<!--Charater-->
-		<div>
-			<b>Top 5 Searched Charaters</b>
+		<div id:"Home_RanCha" class="List_bottom">
+			<h2 >Top 5 Searched Charaters</h2>
+			
 		</div>
 		<br>
 	</body>
