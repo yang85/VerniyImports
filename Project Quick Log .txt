@@ -3,10 +3,15 @@ Version 0.1
 Search bar added
 ==============================
 Document date	5/13
+
+Version 2 of home page
 Search bar reworked 
 	Proper divisions and comment added
-Ranked list added
-	Charater
+Live sites (API implmented)
 	series
 	Manafature
-	
+Ranked list added
+	Charater
+==============================
+Document date	5/13
+CSS started
