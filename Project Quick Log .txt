@@ -1,0 +1,12 @@
+Document date	4/28/2020
+Version 0.1
+Search bar added
+==============================
+Document date	5/13
+Search bar reworked 
+	Proper divisions and comment added
+Ranked list added
+	Charater
+	series
+	Manafature
+	

@@ -6,32 +6,45 @@
 	</head>
 
 	<body>
+		<!--Header Tag-->
 		<div>
 			<h1>VerniyImports</h1>
-			<h2>Enter a Character/Company/Series to start a search</h2>
 		</div>
 		<br>
 		
-		<form action="search.php" method="GET">
+		<!--General Search-->
 		<div>
-			<label>Character</label>
-			<input type = "text" name="SearchKeyWord_Character">
+			<form action="search.php" method="GET">
+			<h2>Enter a Character to start a search</h2>
+				<div>
+					<label>Keyword</label>
+					<input type = "text" name="SearchKeyWord">
+				</div>
+			<br>
+				<div>
+					<input type = "submit" name = "search" value = "Search Now...">
+				</div>
+			</form>
 		</div>
 		<br>
+		<!-- Live Infos-->
+			<!--Current Imported Manufacturers-->
 		<div>
-			<label>Series</label>
-			<input type = "text" name="SearchKeyWord_Series">
+			<div>
+				<b>Current Live Manufacturers</b>
+			</div>
+			<br>
+			<!--Current Imported Sites-->
+			<div>
+				<b>Current Live Sites</b>
+			</div>
+			<br>
+		</div>
+		<!--Ranking List-->
+		<!--Charater-->
+		<div>
+			<b>Top 5 Searched Charaters</b>
 		</div>
 		<br>
-		<div>
-			<label>Manufacturer</label>
-			<input type = "text" name="SearchKeyWord_Manufacturer">
-		</div>
-		<br>
-		<div>
-			<input type = "submit" name = "search" value = "Search Now...">
-		</div>
-		</form>
-		
 	</body>
 </html>
