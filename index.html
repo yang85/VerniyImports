@@ -8,16 +8,30 @@
 	<body>
 		<div>
 			<h1>VerniyImports</h1>
-			<h2>Enter a Character/Company/Series to start a search UwU</h2>
+			<h2>Enter a Character/Company/Series to start a search</h2>
 		</div>
-		<input type="search" id = "SearchBar" placeholder="Search.." />
-		<button onclick="SearchKeyWord()">Submit</button>
+		<br>
+		
+		<form action="search.php" method="GET">
+		<div>
+			<label>Character</label>
+			<input type = "text" name="SearchKeyWord_Character">
+		</div>
+		<br>
+		<div>
+			<label>Series</label>
+			<input type = "text" name="SearchKeyWord_Series">
+		</div>
+		<br>
+		<div>
+			<label>Manufacturer</label>
+			<input type = "text" name="SearchKeyWord_Manufacturer">
+		</div>
+		<br>
+		<div>
+			<input type = "submit" name = "search" value = "Search Now...">
+		</div>
+		</form>
+		
 	</body>
-
-<script>
-function SearchKeyWord() {
-  var x = "dab"
-  document.getElementById("SearchBar").value=x;
-}
-</script>
 </html>
