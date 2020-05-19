@@ -1,4 +1,4 @@
-====Version 0.1
+Version 0.1
 Document date	4.28.2020
 
 Provide find function and output results arcoss different sites using API
@@ -7,7 +7,7 @@ Provide find function and output results arcoss different sites using API
 			-ebay
 2. Get a quote from the sites and display the results
 
-====upcoming function 
+upcoming function 
 	more sites in US
 	logo
 	User logins
@@ -15,12 +15,13 @@ Provide find function and output results arcoss different sites using API
 	Provide Shipping estimate (order from site later on)
 	Translation for more sites in the world(China for non-official and Japan for official)
 	CharaterCompanySerious Database for faster access
-	
+
 ==================================================================
+
 Document date	4/28/2020
 Version 0.1
 Search bar added
-==============================
+
 Document date	5/13
 
 Version 2 of home page
@@ -31,9 +32,10 @@ Live sites (API implmented)
 	Manafature
 Ranked list added
 	Charater
-==============================
+
 Document date	5/13
 CSS started
-==============================
+
 Document date 	5/18
 Website reworked with MaterialUI/React
+Project has Been Resided to verniyimportv2
